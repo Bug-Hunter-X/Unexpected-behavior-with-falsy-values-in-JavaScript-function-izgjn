@@ -1,0 +1,3 @@
+# Unexpected Behavior with Falsy Values in JavaScript Function
+
+This repository demonstrates a common JavaScript bug related to handling falsy values in a function. The `foo` function intends to add two numbers but returns 0 if either input is null.  However, it doesn't handle other falsy values like 0, '', or false, which can lead to unexpected results.  The solution improves the code's robustness.
